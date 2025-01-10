@@ -7,8 +7,8 @@ This API is built using a monolithic architecture, organized by type. It provide
  - Multiple Accounts per User: Users can create and manage one or more accounts.
  - Fund Transfers and Payments: Seamless money transfers and payment functionalities.
  - Notifications:
-      Notifications sent to users via email.
-      Notifications displayed in the UI/UX for better engagement.
+      - Notifications sent to users via email.
+      - Notifications displayed in the UI/UX for better engagement.
  - Middleware for Authorization: Ensures only authorized users can access specific bank accounts.
  - Rate Limiting: Prevents API overuse and ensures system stability.
  - Caching: Improves performance by caching user and account data.
