@@ -22,3 +22,50 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# ====================
+# Spring Boot Specific
+# ====================
+
+# Maven / Gradle directories
+/.mvn/
+/.gradle/
+/build/
+/target/
+
+# Spring Boot default log files
+spring.log
+
+# Lombok generated files
+*.lombok.config
+
+# ====================
+# IDE-specific files
+# ====================
+
+# IntelliJ IDEA
+.idea/
+/*.iml
+/out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# ====================
+# OS-specific files
+# ====================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Linux
+*.swp
